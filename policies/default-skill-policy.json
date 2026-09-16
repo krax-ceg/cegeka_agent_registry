@@ -1,0 +1,28 @@
+{
+  "rules": [
+    {
+      "skill_name": "web-search",
+      "roles": ["researcher", "analyst", "kyb-investigator", "*"],
+      "purposes": ["*"],
+      "stages": ["DISCOVERY", "EXECUTION", "*"]
+    },
+    {
+      "skill_name": "web-crawl",
+      "roles": ["researcher", "analyst", "kyb-investigator", "*"],
+      "purposes": ["*"],
+      "stages": ["DISCOVERY", "EXECUTION", "*"]
+    },
+    {
+      "skill_name": "kyb-verification",
+      "roles": ["kyb-investigator", "researcher", "analyst", "*"],
+      "purposes": ["corporate_due_diligence", "customer_enrichment", "*"],
+      "stages": ["DISCOVERY", "EXECUTION", "*"]
+    },
+    {
+      "skill_name": "okf",
+      "roles": ["analyst", "researcher", "sales-agent", "kyb-investigator", "*"],
+      "purposes": ["*"],
+      "stages": ["*"]
+    }
+  ]
+}
