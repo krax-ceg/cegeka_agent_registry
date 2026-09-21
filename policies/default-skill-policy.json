@@ -2,25 +2,25 @@
   "rules": [
     {
       "skill_name": "web-search",
-      "roles": ["researcher", "analyst", "kyb-investigator", "*"],
+      "roles": ["researcher", "analyst", "kyb-investigator", "auditor", "*"],
       "purposes": ["*"],
-      "stages": ["DISCOVERY", "EXECUTION", "*"]
+      "stages": ["DISCOVERY", "EXECUTION", "VERIFY", "AUDIT", "*"]
     },
     {
       "skill_name": "web-crawl",
-      "roles": ["researcher", "analyst", "kyb-investigator", "*"],
+      "roles": ["researcher", "analyst", "kyb-investigator", "auditor", "*"],
       "purposes": ["*"],
-      "stages": ["DISCOVERY", "EXECUTION", "*"]
+      "stages": ["DISCOVERY", "EXECUTION", "VERIFY", "AUDIT", "*"]
     },
     {
       "skill_name": "kyb-verification",
-      "roles": ["kyb-investigator", "researcher", "analyst", "*"],
-      "purposes": ["corporate_due_diligence", "customer_enrichment", "*"],
-      "stages": ["DISCOVERY", "EXECUTION", "*"]
+      "roles": ["kyb-investigator", "researcher", "analyst", "auditor", "*"],
+      "purposes": ["corporate_due_diligence", "customer_enrichment", "dossier_audit", "*"],
+      "stages": ["DISCOVERY", "EXECUTION", "VERIFY", "AUDIT", "*"]
     },
     {
       "skill_name": "okf",
-      "roles": ["analyst", "researcher", "sales-agent", "kyb-investigator", "*"],
+      "roles": ["analyst", "researcher", "sales-agent", "kyb-investigator", "auditor", "*"],
       "purposes": ["*"],
       "stages": ["*"]
     }

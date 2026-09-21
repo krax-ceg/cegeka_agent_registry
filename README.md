@@ -11,7 +11,7 @@ Version-controlled registry of autonomous AI agent personas, roles, cryptographi
 | **analyst** | `stakeholder_enrichment` | `DISCOVERY`, `EXECUTION` | `web-search`, `okf` |
 | **sales-agent** | `transcript_extraction` | `EXTRACTION`, `EXECUTION` | `okf` |
 | **developer** | `task_execution` | `INIT`, `EXECUTION` | `goose-doc-guide`, `web-search` |
-| **auditor** | `custody_verification` | `VERIFY`, `AUDIT` | `goose-doc-guide` |
+| **auditor** | `dossier_audit`, `custody_verification` | `VERIFY`, `AUDIT` | `kyb-verification`, `web-search`, `web-crawl`, `okf` |
 
 ## Cryptographic Identity & Chain of Custody
 
